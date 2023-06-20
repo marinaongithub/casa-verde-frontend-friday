@@ -1,3 +1,5 @@
+import SelectMenu from './SelectMenu.js'
+
 
 const product = {
   name: 'Basic Tee 6-Pack',
@@ -69,8 +71,8 @@ export default function Example() {
 
             <form className="mt-10">
 
-
               {/* Sizes */}
+              <SelectMenu />
  
 
               <button
