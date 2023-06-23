@@ -47,29 +47,29 @@ const reviews = { href: '#', average: 4, totalCount: 117 }
 export default function Example() {
 
   return (
-    <div className=" bg-white">
-      <div className="h-180 w-80 border-2 border-black">
+    <div className="bg-white border-2 border-black rounded-lg flex flex-row h-40 w-96 font-sans lg:h-[33rem] lg:w-80 lg:flex-col  ">
+      {/* <div className="   "> */}
         {/* Image gallery */}
-        {/* <div className="mx-auto mt-6 max-w-2xl sm:px-6 lg:grid lg:max-w-7xl lg:grid-cols-3 lg:gap-x-8 lg:px-8"> */}
+        {/* <div className=""> */}
             <img
               src={product.images[0].src}
               alt={product.images[0].alt}
-              className="h-full w-full object-cover object-center"
+              className="h-32 w-32 my-auto mx-4 lg:h-64 lg:w-64 lg:mx-auto lg:mt-7 lg:mb-4" 
             />
         {/* </div> */}
 
         {/* Product info */}
-        <div className="mx-auto max-w-2xl px-4 pb-16 pt-10 sm:px-6 lg:grid lg:max-w-7xl lg:grid-cols-3 lg:grid-rows-[auto,auto,1fr] lg:gap-x-8 lg:px-8 lg:pb-24 lg:pt-16">
-          <div className="lg:col-span-2 lg:border-r lg:border-gray-200 lg:pr-8">
-            <h1 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">{product.name}</h1>
-          </div>
+        <div className="flex-1 max-w-2xl mt-3 ml-1.5 lg:ml-7 lg:mt-0">
+          {/* <div className="lg:col-span-2 lg:border-r lg:border-gray-200 lg:pr-8"> */}
+            <h1 className="text-sm font-bold tracking-tight text-black text-left mb-1 lg:text-xl lg: mb-1">{product.name}</h1>
+          {/* </div> */}
 
           {/* Options */}
-          <div className="mt-4 lg:row-span-3 lg:mt-0">
+          {/* <div className="mt-4 lg:row-span-3 lg:mt-0"> */}
             <h2 className="sr-only">Product information</h2>
-            <p className="text-3xl tracking-tight text-gray-900">{product.price}</p>
+            <p className="text-base tracking-tight text-black text-left lg:text-2xl">{product.price}</p>
 
-            <form className="mt-10">
+            <form className="">
 
               {/* Sizes */}
               <SelectMenu />
@@ -77,15 +77,15 @@ export default function Example() {
 
               <button
                 type="submit"
-                className="mt-10 flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+                className=" bg-[#F6D55C] flex flex-none items-center justify-center rounded-md border border-transparent w-48 h-8 text-base font-medium hover:bg-amber-400 focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-2 lg:h-14 lg:w-64 lg:text-xl"
               >
-                Add to bag
+                Add to bag<img src="/cart.png" alt="cart" className="h-4 w-4 ml-2 object-contain lg:h-5 lg:w-5"/> 
               </button>
             </form>
-          </div>
+          {/* </div> */}
 
         </div>
-      </div>
+      {/* </div> */}
     </div>
   )
 }
