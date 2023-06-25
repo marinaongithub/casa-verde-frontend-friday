@@ -1,0 +1,157 @@
+[
+    {
+        "id": "1",
+        "name": "Anthurium - 30cm",
+        "price": "£22 - £38",
+        "onSale": "false",
+        "images": [
+            {
+                "src": "/images/anthurium.jpg",
+                "alt": "Pink Anthurium"
+            }
+        ],
+        "colors": [
+            "green", "pink"
+        ],
+        "options": [
+            { "id": "1", "name": "Plastic pot-£22" },
+            { "id": "2", "name": "Clay pot-£38" }
+        ]
+    },
+    {
+        "id": "2",
+        "name": "Hydrangea - 40cm",
+        "price": "£22 - £42",
+        "onSale": "",
+        "images": [
+            {
+                "src": "/images/hydrangea.jpg",
+                "alt": "Blue hydrangea"
+            }
+        ],
+        "colors": [
+            "blue"
+        ],
+        "options": [
+            { "id": "3", "name": "Decorative pot - £22.00" },
+            { "id": "4", "name": "Clay pot - £42-00" }
+        ]
+    },
+    {
+        "id": "3",
+        "name": "Maranta - 20cm",
+        "price": "£18 - £30",
+        "onSale": "true",
+        "images": [
+            {
+                "src": "/images/Maranta.jpg",
+                "alt": "Maranta Leuconeura"
+            }
+        ],
+        "colors": [
+            "green", "pink"
+        ],
+        "options": [
+            { "id": "5", "name": "Decorative pot - £18.00" },
+            { "id": "6", "name": "Clay pot - £30.00" }
+        ]
+    },
+    {
+        "id": "4",
+        "name": "Orchid - 50cm",
+        "price": "£24 - £36",
+        "onSale": "false",
+        "images": [
+            {
+                "src": "/images/orchid.jpg",
+                "alt": "White Orchid"
+            }
+        ],
+        "colors": [
+            "white"
+        ],
+        "options": [
+            { "id": "7", "name": "Decorative pot - £24.00" },
+            { "id": "8", "name": "Clay pot - £36.00" }
+        ]
+    },
+    {
+        "id": "5",
+        "name": "Peace Lily - 40cm",
+        "price": "£10 - £26",
+        "onSale": "false",
+        "images": [
+            {
+                "src": "/images/peace-lilies.jpg",
+                "alt": "Peace lily"
+            }
+        ],
+        "colors": [
+            "white"
+        ],
+        "options": [
+            { "id": "9", "name": "Decorative pot - £10.00" },
+            { "id": "10", "name": "Clay pot - £26.00" }
+        ]
+    },
+    {
+        "id": "6",
+        "name": "Pilea - 10cm",
+        "price": "£15 - £27",
+        "onSale": "false",
+        "images": [
+            {
+                "src": "/images/pilea.jpg",
+                "alt": "Pilea"
+            }
+        ],
+        "colors": [
+            "green"
+        ],
+        "options": [
+            { "id": "11", "name": "Decorative pot - £15.00" },
+            { "id": "12", "option2": "Clay pot - £27.00" }
+        ]
+    },
+    {
+        "id": "7",
+        "name": "Snake Plant - 20cm",
+        "price": "£10 -£22",
+        "onSale": "false",
+        "images": [
+            {
+                "src": "/images/snake-plant.jpg",
+                "alt": "Snake Plant"
+            }
+        ],
+        "colors": [
+            "green"
+        ],
+        "options": [
+            { "id": "13", "name": "Decorative pot - £10.00" },
+            { "id": "14", "name": "Clay pot - £22.00" }
+        ]
+    },
+    {       
+        "id": "8",
+        "name": "Verbena - 50cm",
+        "price": "£10 - £22",
+        "onSale": "false",
+        "images": [
+            {
+                "src": "/images/verbena.jpg",
+                "alt": "Verbena"
+            }
+        ],
+        "colors": [
+            "blue"
+        ],
+        "options": [
+            { "id": "15", "name": "Decorative pot - £10.00" },
+            { "id": "16", "name": "Clay pot - £22.00" }
+        ]
+    }
+]
+
+
+

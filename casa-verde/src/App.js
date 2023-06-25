@@ -1,10 +1,22 @@
 import './App.css';
-import Example from './ProductCard';
+import ProductCard from './ProductCard';
+import products from "./products.json"
+
 
 function App() {
   return (
     <div className="App">
-      <Example/>
+      <div className="products-gallery">
+        {products.map( product => (
+          <ProductCard
+            key={product.id}
+            name={product.name}
+            images={product.images}
+            price={product.price}
+            options={product.options} />
+          ))
+      }
+      </div>
     </div>
   );
 }
