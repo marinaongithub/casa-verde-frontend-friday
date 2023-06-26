@@ -1,11 +1,14 @@
 import './App.css';
-import ProductCard from './ProductCard';
+import ProductCard from "./ProductCard";
 import products from "./products.json"
+import Banner from "./Banner"
 
 
 function App() {
   return (
     <div className="App">
+      <Banner />
+
       <div className="products-gallery">
         {products.map( product => (
           <ProductCard
@@ -17,6 +20,7 @@ function App() {
           ))
       }
       </div>
+
     </div>
   );
 }
