@@ -1,6 +1,7 @@
 [
     {
         "id": "1",
+        "title": "Products",
         "name": "Anthurium - 30cm",
         "price": "£22 - £38",
         "onSale": "false",
@@ -20,6 +21,7 @@
     },
     {
         "id": "2",
+        "title": "",
         "name": "Hydrangea - 40cm",
         "price": "£22 - £42",
         "onSale": "",
@@ -39,6 +41,7 @@
     },
     {
         "id": "3",
+        "title": "",
         "name": "Maranta - 20cm",
         "price": "£18 - £30",
         "onSale": "true",
@@ -58,6 +61,7 @@
     },
     {
         "id": "4",
+        "title": "",
         "name": "Orchid - 50cm",
         "price": "£24 - £36",
         "onSale": "false",
@@ -77,6 +81,7 @@
     },
     {
         "id": "5",
+        "title": "",
         "name": "Peace Lily - 40cm",
         "price": "£10 - £26",
         "onSale": "false",
@@ -96,6 +101,7 @@
     },
     {
         "id": "6",
+        "title": "",
         "name": "Pilea - 10cm",
         "price": "£15 - £27",
         "onSale": "false",
@@ -115,6 +121,7 @@
     },
     {
         "id": "7",
+        "title": "",
         "name": "Snake Plant - 20cm",
         "price": "£10 -£22",
         "onSale": "false",
@@ -134,6 +141,7 @@
     },
     {       
         "id": "8",
+        "title": "",
         "name": "Verbena - 50cm",
         "price": "£10 - £22",
         "onSale": "false",

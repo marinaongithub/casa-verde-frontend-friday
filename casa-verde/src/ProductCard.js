@@ -3,7 +3,10 @@ import SelectMenu from './SelectMenu.js'
 export default function ProductCard(props) {
 
   return (
-    <div className="bg-white border-2 border-black rounded-lg flex flex-row h-40 w-96 font-sans m-2 lg:h-[33rem] lg:w-80 lg:flex-col lg:m-8">
+
+  <div className="">
+    {/* <h2 className="w-full">{props.title}</h2> */}
+    <div className="bg-white border-2 border-black rounded-lg flex flex-row h-40 w-[295px] font-sans m-2 lg:h-[33rem] lg:w-80 lg:flex-col lg:m-8">
       {/* <div className="   "> */}
         {/* Image gallery */}
         {/* <div className=""> */}
@@ -43,5 +46,6 @@ export default function ProductCard(props) {
         </div>
       {/* </div> */}
     </div>
+  </div>
   )
 }
